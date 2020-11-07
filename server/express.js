@@ -16,7 +16,7 @@ Luego, configure la aplicación Express con bodyParser.json() y bodyParser.urlen
 - cookie-parser: Middleware de análisis de cookies para analizar y establecer cookies en objetos de solicitud. 
 Para instalar el módulo cookie-parser, ejecute "yarn add cookie-parser" desde la línea de comandos.
 
-- compression: Middleware de compresión que intentará comprimir los cuerpos de respuesta para todas las 
+- compress: Middleware de compresión que intentará comprimir los cuerpos de respuesta para todas las 
 solicitudes que atraviesan el middleware. Para instalar el módulo de compresión, 
 ejecute "yarn add compress" desde la línea de comando.
 

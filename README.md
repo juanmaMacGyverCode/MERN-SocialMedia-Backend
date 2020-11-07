@@ -16,7 +16,7 @@
    - To install express, run ```yarn add express```
    - To install body-parser, run ```yarn add body-parser```
    - To install cookie-parser, run ```yarn add cookie-parser```
-   - To install compress, run ```yarn add compress```
+   - To install compress, run ```yarn add compression```
    - To install helmet, run ```yarn add helmet```
    - To install cors, run ```yarn add cors```
    - To install mongoose, run ```yarn add mongoose```
