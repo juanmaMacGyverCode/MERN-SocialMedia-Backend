@@ -5,7 +5,8 @@ import compress from 'compression';
 import cors from 'cors';
 import helmet from 'helmet';
 import Template from './../template';
-import userRoutes from './routes/user.routes'
+import userRoutes from './routes/user.routes';
+import authRoutes from './routes/auth.routes';
 
 /*
 - body-parser: Solicite el middleware de análisis del cuerpo para manejar las complejidades del análisis 
@@ -38,6 +39,7 @@ app.use(compress());
 app.use(helmet());
 app.use(cors());
 app.use('/', userRoutes);
+app.use('/', authRoutes);
 
 /*
 Endpoint de controlador
