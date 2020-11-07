@@ -19,5 +19,6 @@
    - To install compress, run ```yarn add compress```
    - To install helmet, run ```yarn add helmet```
    - To install cors, run ```yarn add cors```
+   - To install mongoose, run ```yarn add mongoose```
    - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
 4. Open [localhost:3000](http://localhost:3000/) in the browser
