@@ -13,5 +13,11 @@
    ```yarn add --dev @babel/core babel-loader @babel/preset-env```
    - To install webpack, run 
    ```yarn add --dev webpack webpack-cli webpack-node-externals```
+   - To install express, run ```yarn add express```
+   - To install body-parser, run ```yarn add body-parser```
+   - To install cookie-parser, run ```yarn add cookie-parser```
+   - To install compress, run ```yarn add compress```
+   - To install helmet, run ```yarn add helmet```
+   - To install cors, run ```yarn add cors```
    - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
 4. Open [localhost:3000](http://localhost:3000/) in the browser
