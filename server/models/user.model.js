@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import crypto from 'crypto';
 
 /*
 La función mongoose.Schema () toma un objeto de definición de esquema como parámetro para generar un nuevo 
@@ -65,7 +66,7 @@ UserSchema.path('hashed_password').validate(function (v) {
         this.invalidate('password', 'Password must be at least 6 characters.');
     }
     if (this.isNew && !this._password) {
-        this.invalidate('password', 'Password is required');
+        this.invalidate('password', 'Password is required ' + this._password);
     }
 }, null);
 

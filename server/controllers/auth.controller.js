@@ -33,8 +33,10 @@ const signout = (req, res) => {
     });
 }
 
+// También funciona -> algorithms: ['sha1', 'RS256', 'HS256']
 const requireSignin = expressJwt({
     secret: config.jwtSecret,
+    algorithms: ['HS256'],
     userProperty: 'auth'
 });
 
